@@ -1,0 +1,160 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+}
+
+ /* Header */
+
+#header {
+    width: 95vw;
+    height: 85vh;
+    margin: 0 auto;
+}
+
+.background-pic {
+    background-image: url(/pics/hero-homepage-2019-1800x1185.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.header-layer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(59, 55, 55, 0.6);
+    /* outline: 3px solid black; */
+    top: 0;
+}
+
+.logo {
+    margin: 80px 0 0 200px;
+    width: 5%;
+    /* outline: 3px solid red; */
+}
+
+/* Navigation bar */
+
+.nav-bar {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    text-align: right;
+    margin-left: 20%;
+}
+
+.nav-bar li {
+    display: inline-block;
+    padding: 0 20px;
+    /* outline: 3px solid red; */
+}
+
+.nav-bar a:hover:not(.link-button) {
+    color:  rgb(245, 162, 53);
+}
+
+.nav-bar .button:hover {
+    background-color: rgb(219, 141, 39);
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.button {
+    background-color: rgb(245, 162, 53);
+    border-radius: 100px;
+    text-align: center;
+}
+
+.nav-bar .button {
+    width: 150px;
+    height: 40px;
+    line-height: 37px;
+}
+
+/* Headline */
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.header-description {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+
+/* Header-bottom */
+
+.header-bottom a {
+    text-decoration: none;
+    color: whitesmoke;
+    /* outline: 1px solid green; */
+}
+
+.header-bottom a:hover {
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
+
+.header-bottom {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: 40%;
+    /* outline: 3px solid red; */
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    /* outline: 3px solid rgb(12, 116, 18); */
+}
+
+.container1 a {
+    width: 24.8%;
+    height: 100%;
+    /* outline: 3px solid red; */
+    background-color:rgba(14, 13, 13, 0.5);
+}
+
+.box-header {
+    padding: 0 30px 0 30px;
+}
+
+.description {
+    height: 120px;
+    /* outline: 3px solid red; */
+}
+
+.container1 .button {
+    padding: 15px 0 15px 0;
+    width: 60%;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.container1 .box2 .button {
+    line-height: 15px;
+}
+
+.container1 a:hover {
+    background-color: whitesmoke;
+    color: black;
+    transform: scale(1.05);
+}
+
+i {
+    margin-top: 15px;
+    font-size: 30px;
+    color: rgb(245, 162, 53);
+}
