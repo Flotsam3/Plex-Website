@@ -9,7 +9,7 @@ body {
 
 #header {
     width: 95vw;
-    height: 85vh;
+    height: 90vh;
     margin: 0 auto;
 }
 
@@ -134,7 +134,7 @@ h1 {
 }
 
 .description {
-    height: 120px;
+    height: 105px;
     /* outline: 3px solid red; */
 }
 
