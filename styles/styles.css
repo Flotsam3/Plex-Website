@@ -14,7 +14,7 @@ body {
 }
 
 .background-pic {
-    background-image: url(/pics/hero-homepage-2019-1800x1185.jpg);
+    background-image: url(../pics/hero-homepage-2019-1800x1185.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
